@@ -40,17 +40,18 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['top'])
 def send_welcome(message):
-    bot.reply_to(message, 'Você escolheu a Top Lane, os campeões cadastrados nessa lane são: Darius, Jax, Panteon')
+    bot.reply_to(message, 'Você escolheu a Top Lane, os campeões cadastrados nessa lane são: Nasus, Maokai, Garen,'
+                          ' Darius, Malphite, Wucong, Riven, Pantheon, Sion, Aatrox')
 
 
 @bot.message_handler(commands=['mid'])
 def send_welcome(message):
-    bot.reply_to(message, 'Você escolheu a Mid Lane, os campeões cadastrados nessa lane são: Ahri, Zed, Yasuo')
+    bot.reply_to(message, 'Você escolheu a Mid Lane, não há campeões cadastrados até o momento')
 
 
 @bot.message_handler(commands=['jungle'])
 def send_welcome(message):
-    bot.reply_to(message, 'Você escolheu a Top Lane, os campeões cadastrados nessa lane são: Master Yi, Jax, Panteon')
+    bot.reply_to(message, 'Você escolheu a Top Lane, não há campeões cadastrados até o momento')
 
 
 def reposta(texto):
