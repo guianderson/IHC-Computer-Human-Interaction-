@@ -1,0 +1,1 @@
+para fazer programa rodar corretamente execute: pip install -r requirements.txt
