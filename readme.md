@@ -1,4 +1,4 @@
-# Trabalho de Interação Humano Computador
+﻿# Trabalho de Interação Humano Computador
 # Desenvolvendo ChatBot utilizando Python
 
 
@@ -36,10 +36,10 @@ Para ter o repositório em sua máquina basta clonar o repositório em: https://
 Para utilizar o chatBot basta acessar o telegran e procurar por: @classHourHelper_FateBot
 
 # Como colocar fazer deploy no pythonanywhere?
-1 - Acesso o site: https://www.pythonanywhere.com e faça seu cadastro
-2 - Depois de realizar seu cadastro será redirecionado para o DashBoard
-3 - Na aba Files, clique em Open another File, e coloque caminho completo que aparecera e o nomedoarquivo.py
-4 - Será aberto uma página em branco, bem parecida com a página do IDLE, dentro dela cole seu código python, no entanto para que funcione corretamente é necessário que no inicio do código você ensira o seguinte trecho, para que o programa entenda que a linguagem utilizada é python, e que o texto contido no arquivo é Latino.
+  - Acesso o site: https://www.pythonanywhere.com e faça seu cadastro
+  - Depois de realizar seu cadastro será redirecionado para o DashBoard
+  - Na aba Files, clique em Open another File, e coloque caminho completo que aparecera e o nomedoarquivo.py
+  - Será aberto uma página em branco, bem parecida com a página do IDLE, dentro dela cole seu código python, no entanto para que funcione corretamente é necessário que no inicio do código você ensira o seguinte trecho, para que o programa entenda que a linguagem utilizada é python, e que o texto contido no arquivo é Latino.
 ```sh
 $ #!/usr/bin/python
 $ # -*- coding: latin-1 -*-
